@@ -67,6 +67,13 @@
             <FilterDescription>false</FilterDescription>
             <AddFilterResult>false</AddFilterResult>
             <Pagination>none</Pagination>
+            <FilterDescription>false</FilterDescription>
+            <AddFilterResult>false</AddFilterResult>
+            <Pagination>none</Pagination>
+            <ToolTip>true</ToolTip>
+            <Control>true</Control>
+            <Declaration>true</Declaration>
+            <VariablesDrapeaux>false</VariablesDrapeaux>
         </lunatic-xml-parameters>
         
         <fodt-parameters/>
