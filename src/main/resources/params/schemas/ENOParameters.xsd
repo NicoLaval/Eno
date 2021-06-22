@@ -26,6 +26,7 @@
         
     <xs:complexType name="Parameters" >
         <xs:all>
+            <xs:element name="Mode" type="Mode" minOccurs="1" maxOccurs="1"/>
             <xs:element name="Context" type="Context" minOccurs="1" maxOccurs="1"/>
             <xs:element name="Campagne" type="xs:string" minOccurs="1" maxOccurs="1"/>
             <xs:element name="Languages" minOccurs="0" maxOccurs="1">
@@ -59,6 +60,14 @@
             <xs:enumeration value="default"/>
             <xs:enumeration value="household"/>
             <xs:enumeration value="business"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="Mode">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="cawi"/>
+            <xs:enumeration value="capi/cati"/>
+            <xs:enumeration value="papi"/>
         </xs:restriction>
     </xs:simpleType>
     
