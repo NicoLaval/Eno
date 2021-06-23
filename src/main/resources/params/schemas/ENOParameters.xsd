@@ -65,6 +65,7 @@
     
     <xs:simpleType name="Mode">
         <xs:restriction base="xs:token">
+            <xs:enumeration value="none"/>
             <xs:enumeration value="cawi"/>
             <xs:enumeration value="capi/cati"/>
             <xs:enumeration value="papi"/>
